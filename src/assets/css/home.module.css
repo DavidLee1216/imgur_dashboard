@@ -1,0 +1,177 @@
+.home {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: calc(100vh - 20px);
+  background-color: #f1f3f4;
+  margin: 10px;
+  padding: 0px;
+  border-radius: 20px;
+}
+
+.home_top_section {
+  padding: 40px 40px 0 40px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.welcome {
+}
+
+.hi {
+  color: black;
+  font-weight: bold;
+}
+
+.check {
+  text-decoration: none !important;
+  color: blueviolet !important;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.subscription {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  color: grey;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.subscription_text {
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: 1px solid grey;
+}
+
+.user_dashboard {
+  color: black;
+  font-size: 2em;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.user_id {
+  color: grey;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.user_information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.unique_users,
+.registered_members,
+.resolved_issues,
+.expenses {
+  display: flex;
+  position: relative;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  min-width: 250px;
+  width: 300px;
+  gap: 20px;
+}
+
+.unique_users_icon,
+.registered_members_icon,
+.resolved_issues_icon,
+.expenses_icon {
+  display: inline-block;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  color: white;
+}
+
+.unique_users_info,
+.registered_members_info,
+.resolved_issues_info,
+.expenses_info {
+  margin-left: 0px;
+}
+
+.unique_users_info_title,
+.registered_members_info_title,
+.resolved_issues_info_title,
+.expenses_info_title {
+  color: grey;
+  font-size: 0.8rem;
+  line-height: 15px;
+}
+
+.unique_users_info_count,
+.registered_members_info_count,
+.resolved_issues_info_count,
+.expenses_info_count {
+  color: black;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 2px;
+  line-height: 35px;
+}
+
+.unique_users_plus,
+.registered_members_plus,
+.resolved_issues_plus {
+  position: absolute;
+  color: green;
+  font-size: 0.8rem;
+  font-weight: bold;
+  bottom: 20px;
+  right: 20px;
+}
+
+.expenses_usd {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.home_menus {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.active_menu {
+  color: black;
+  font-weight: bold;
+  border-bottom: 1px solid black !important;
+}
+
+.non_active_menu {
+  color: grey;
+}
+
+.home_menu_item::after {
+  border-bottom: 1px solid transparent;
+  content: "";
+  display: block;
+  transform: scaleX(0);
+  transition: 0.25s ease-in-out;
+}
+
+.home_menu_item:not(.active_menu):hover::after {
+  border-bottom: 1px solid orange;
+  transform: scaleX(1);
+}
+
+.content_section {
+  background-color: #f1f3f4;
+}

@@ -1,0 +1,186 @@
+.order_history_wrapper {
+  display: flex;
+  height: 100%;
+  background-color: #f1f3f4;
+  padding: 40px;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.balance,
+.payment {
+  flex-grow: 1;
+}
+
+.current_balance,
+.payment_details {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.current_balance_title,
+.payment_details_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current_balance_title_title,
+.payment_details_title_title {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.dots {
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: grey;
+  cursor: default;
+}
+
+.current_balance_content,
+.payment_details_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.current_balance_content_first {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.current_balance_content_first_up {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.current_balance_content_first_down {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.USD {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.current_balance_button {
+  width: 150px;
+  height: 50px;
+  background-image: linear-gradient(blue, rgb(93, 10, 187));
+  color: white;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+.history_title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.history_title_title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.balance_top_up {
+  margin-top: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history_item_text {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.history_item_date {
+  font-size: 0.8em;
+  color: grey;
+}
+
+.amount {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.balance_top_up,
+.refund_of_order,
+.office_rent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.screen_time {
+  flex-grow: 1;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.total_time {
+  flex-grow: 1;
+  height: 200px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+}
+
+.arrow_right {
+  color: white;
+  background-color: blueviolet;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total_time_times {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  margin-top: 10px;
+  padding: 10px 0;
+}
+
+.from_icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.from_last_week {
+  color: grey;
+}
+
+.percent {
+  font-weight: 500;
+}

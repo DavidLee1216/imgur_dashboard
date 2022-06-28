@@ -1,0 +1,76 @@
+.header {
+  background-color: black;
+  width: 350px;
+  min-width: 300px;
+}
+
+.logo {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.header_menu {
+  color: grey;
+  padding: 30px;
+  font-size: 1.2em;
+  gap: 0.2em;
+  margin-top: 100px;
+}
+
+.header_item {
+  height: 3em;
+  line-height: 3em;
+  cursor: pointer;
+}
+
+.visitor_count {
+  background-color: yellowgreen;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7em;
+}
+
+.user_info {
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+
+.username {
+  font-size: 1.2em;
+  color: white;
+}
+
+.email {
+  font-size: 0.8em;
+  color: grey;
+}
+
+.user_image_status {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  margin: auto;
+}
+
+.user_image {
+  display: block;
+  border-radius: 50%;
+}
+
+.user_info_status_active {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: rgb(33, 150, 83);
+  border: 1px solid black;
+  border-radius: 50%;
+  top: 37px;
+  right: 6px;
+}
